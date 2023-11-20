@@ -58,4 +58,14 @@ warning: `Rust_Dummy_Github` (bin "Rust_Dummy_Github") generated 1 warning
      Running `target\debug\Rust_Dummy_Github.exe pr create --title Hello`
     
 Pr with title Hello is created and the fraft status is: false
+
+
+
+// short command ver.
+
+$ cargo r pr create -t Hello -d
+
+Pr with title Hello is created and
+ the draft status is: true
+
 ```
