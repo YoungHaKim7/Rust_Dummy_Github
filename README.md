@@ -44,3 +44,18 @@ $ cargo r pr create
 Pr Created 
 
 ```
+
+- final Result
+
+```
+
+$ cargo r pr create --title Hello
+
+   Compiling Rust_Dummy_Github v0.1.0 (D:\Rust_Dummy_Github)
+warning: crate `Rust_Dummy_Github` should have a snake case name
+warning: `Rust_Dummy_Github` (bin "Rust_Dummy_Github") generated 1 warning
+    Finished dev [unoptimized + debuginfo] target(s) in 1.02s
+     Running `target\debug\Rust_Dummy_Github.exe pr create --title Hello`
+    
+Pr with title Hello is created and the fraft status is: false
+```
