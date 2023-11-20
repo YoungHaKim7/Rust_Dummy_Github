@@ -3,6 +3,7 @@ use clap::Parser;
 use ghk::Ghk;
 
 mod ghk;
+mod pr;
 
 #[derive(Parser)]
 struct Cli {
