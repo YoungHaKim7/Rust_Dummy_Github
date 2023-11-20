@@ -13,10 +13,11 @@
 Usage: Rust_Dummy_Github.exe <COMMAND>
 
 Commands:
-  pr
-  auth
+  pr    Manage pull requests
+  auth  Login or Logout
   help  Print this message or the help of the given subcommand(s)
 
 Options:
   -h, --help  Print help
+
 ```
