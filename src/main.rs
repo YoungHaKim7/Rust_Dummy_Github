@@ -13,4 +13,5 @@ struct Cli {
 
 fn main() {
     let cli: Cli = Cli::parse();
+    cli.command.exec();
 }

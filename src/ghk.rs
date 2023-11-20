@@ -12,3 +12,16 @@ pub enum Ghk {
     /// Login or Logout
     Auth,
 }
+
+impl Ghk {
+    pub fn exec(&self) {
+        match self {
+            Ghk::Auth => {
+                println!("trying to authenticate")
+            }
+            Ghk::Pr { command } => {
+                command.exec();
+            }
+        }
+    }
+}
